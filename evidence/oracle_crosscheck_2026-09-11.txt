@@ -1,0 +1,6 @@
+﻿stamp: 2026-09-11
+oracle-vs-rustbolge cross-validation, program: Antivirusbolge/corpus/benign/hello_classic.mal
+
+ORACLE   : output='Hello, world.' steps=48 halted=true reason=halt_opcode a=19758 c=85 d=63
+RUSTBOLGE: output='Hello, world.' steps=48 halted=VInstruction            a=19758 c=85 d=63
+RESULT   : EXACT AGREEMENT (stdout, steps, halt, final a/c/d)
